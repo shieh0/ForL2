@@ -1,0 +1,26 @@
+name: Generate QR Code
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  generate_qr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate QR Code
+        run: |
+          sudo apt-get install qrencode
+          qrencode -o qr_code.png "https://github.com/${{ github.repository }}"
+
+      - name: Upload QR Code
+        uses: actions/upload-artifact@v3
+        with:
+          name: qr_code
+          path: qr_code.png
