@@ -1,11 +1,37 @@
-## Week 10 Lab
-Spatial Analysis of Forest Inventory Data
+# Forestry Lab 2
 
-### Objective
-This lab focuses on spatial analysis of forest inventory data using a Digital Terrain Model (DEM). You will extract slope and aspect from the DEM, visualize spatial patterns, and analyze the distribution of forest attributes (e.g., basal area, biomass) across the study area.
+## Option 1
 
-### Materials Needed
-1.	Ground Digital Terrain Model (DEM) of study unit 2 (`unit2.img`).
-2.	Summary table from Week 9 Lab (`sum_u2.csv`).
-3.	Shapefile of sample plot locations (`HEE_Overstory_Survey_Points_2017 - Copy `; ensure all 7 related files are saved in one folder).
-4.	You may need to install and load ‘terra’, ‘tmap’, and ‘sf’ packages. 
+1. **Setup**  
+   - Create a GitHub repository where you will upload the shape files and your R code file.
+
+2. **Coding Tasks**  
+   - Write the code for points 1 and 2 from *Lab 10_Spatial Analysis of Forest Inventory Data_Instructions*.
+
+3. **Learning Shiny**  
+   - Introduction to Shiny
+   - Create a "Hello world" Shiny app
+   - Publish the "Hello world" Shiny app to [shinyapps.io](https://www.shinyapps.io)
+
+4. **Conditional Statements in R**  
+   - Introduction to the R If ... Else conditions
+
+5. **Shiny App Development**  
+   - Create a Shiny app for code from points 1 to 2
+   - Publish the Shiny app to [shinyapps.io](https://www.shinyapps.io)
+
+6. **Finalizing Lab Work**  
+   - Write the rest of the lab code, answer the questions in the same R script, and push it to the GitHub repository.
+
+---
+
+## Option 2
+
+1. **Setup**  
+   - Create a GitHub repository where you will upload the shape files and your R code file.
+
+2. **Coding Tasks**  
+   - Write the code from *Lab 10_Spatial Analysis of Forest Inventory Data_Instructions*, answer the questions in the same R script, and push it to your GitHub repository.
+
+3. **Shiny App Development**  
+   - Create a Shiny app that shows some (or all) of the outputs from the lab practice and publish it to [shinyapps.io](https://www.shinyapps.io).
