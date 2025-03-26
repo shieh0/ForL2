@@ -20,7 +20,7 @@ jobs:
           qrencode -o qr_code.png "https://github.com/${{ github.repository }}"
 
       - name: Upload QR Code
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: qr_code
           path: qr_code.png
